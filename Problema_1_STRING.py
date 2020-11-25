@@ -1,2 +1,2 @@
-n=str(input('Care este numele tau? '))
-print('Salut,', n)
+nume=str(input('Cum te numesti? '))
+print('Salut,', nume)
