@@ -1,6 +1,5 @@
-c1=str(input('Primul cuvant : '))
-c2=str(input('Al doilea cuvant: '))
-c3=str(input('Al treilea cuvant: '))
-c4=str(input('Al patrulea cuvant: '))
-f = c1 + ' ' + c2 + ' ' + c3 + ' ' + c4 + '.'
-print('Fraza este:', f)
+cuv1=str(input('Introduceti primul cuvant: '))
+cuv2=str(input('Introduceti al doilea cuvant: '))
+cuv3=str(input('Introduceti al treilea cuvant: '))
+cuv4=str(input('Introduceti al patrulea cuvant: '))
+print(f'Fraza ce sa primit: {cuv1} {cuv2} {cuv3} {cuv4}.')
