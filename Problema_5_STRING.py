@@ -1,11 +1,11 @@
-CNP=str(input('CNP-ul persoanei: '))
-if  len(CNP) == 13:
+cnp=str(input('CNP-ul: '))
+if  len(cnp) == 13:
     i = 0
-    while (i != len(CNP)) and (ord(CNP[i]) in range(48,59)): 
+    while (i != len(cnp)) and (ord(cnp[i]) in range(48,59)): 
         i += 1
-    if i == len(CNP):
-        print('CNP-ul a fost scris corect')
+    if i == len(cnp):
+        print('Ati scris CNP-ul corect')
     else:
-        print('CNP-ul a fost scris gresit')
+        print('Ati scris CNP-ul gresit')
 else:
-    print('CNP-ul a fost scris gresit')
+    print('Ati scris CNP-ul gresit')
