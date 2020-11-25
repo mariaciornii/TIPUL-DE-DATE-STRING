@@ -1,12 +1,12 @@
-c1=str(input('Primul cuvant : '))
-c2=str(input('Al doilea cuvant: '))
-c3=str(input('Al treilea cuvant: '))
-c4=str(input('Al patrulea cuvant: '))
-if len(c1)<3 or len(c2)<3 or len(c3)<3 or len(c4)<3:
-    print('Conditia nu se respecta')
+cuv1=str(input('Introduceti primul cuvant: '))
+cuv2=str(input('Introduceti al doilea cuvant: '))
+cuv3=str(input('Introduceti al treilea cuvant: '))
+cuv4=str(input('Introduceti al patrulea cuvant: '))
+if len(cuv1)<3 or len(cuv2)<3 or len(cuv3)<3 or len(cuv4)<3:
+    print('Nu este respectata conditia')
 else:
-    c_nou = c1[0] + c1[1]+ c2[0] + c3[0] + c3[1] + c3[2]
-    for i in range(len(c4)//2):
-        c_nou += c4[i]
-    print(f'Cuvintele introduse: {c1}, {c2}, {c3}, {c4}')
-    print('Cuvantul nou = ', c_nou)
+    cuv_nou = cuv1[0] + cuv1[1]+ cuv2[0] + cuv3[0] + cuv3[1] + cuv3[2]
+    for i in range(len(cuv4)//2):
+        cuv_nou += cuv4[i]
+    print(f'Cuvintele introduse sunt: {cuv1}, {cuv2}, {cuv3}, {cuv4}')
+    print('Cuvantul nou este', cuv_nou)
